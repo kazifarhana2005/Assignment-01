@@ -34,12 +34,33 @@ ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .banner h1{
     color: white;
+    font-size:65px;
 
 
 }
 .banner p{
     color: white;
+}
+.speakers{
+    padding: 80px 20px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+
+}
+.card{
+    width:500px;
+
+}
+.card img{
+    width: 100%;
+   
 }
