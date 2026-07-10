@@ -18,3 +18,28 @@ ul li a{
     color: rgb(85, 83, 83);
     
 }
+.common-button{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.banner{
+    background-image: url(images/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: white;
+
+
+}
+.banner p{
+    color: white;
+}
