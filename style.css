@@ -45,10 +45,14 @@ ul li a{
 .banner p{
     color: white;
 }
-.speakers{
-    padding: 80px 20px;
+.speakers h2{
     text-align: center;
 }
+.speakers{
+    padding: 80px 20px;
+    text-align:left;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -58,9 +62,87 @@ ul li a{
 }
 .card{
     width:500px;
+    border:none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: wheat;
+    padding: 7px;
 
 }
 .card img{
     width: 100%;
+    display: block;
    
+}
+.price{
+    text-align:center;
+    padding: 80px 20px;
+
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: left;
+    ;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    text-align: left;
+
+}
+.price-card{
+    width: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.price-card ul{
+    width: 300px;
+    list-style-type: disc;
+    
+   
+    padding: 30px;
+    flex-direction: column;
+}
+.price-card li::marker{
+    margin-bottom: 10px;
+    color: #2563EB;
+
+
+}
+.pro-card{
+    background-color:#0D1B2A;
+    color: white;
+    border: none;
+    display: inline-block;
+}
+.contact-us{
+    background-color: white;
+    color: darkslategray;
+    border:1px solid darkslategray;
+    padding:8px 20px ;
+    height: 30px;
+    width:100%;
+}
+.get-pro{
+    background-color:#2563EB;
+    color: white;
+    border:1px solid #2563EB;
+    padding:8px 20px ;
+    height: 30px;
+    width:100%;
+}
+.get-standard{
+    background-color:white;
+    color:#2563EB;
+    border:1px solid #2563EB;
+    padding:8px 20px ;
+    height: 30px;
+    width:100%;
 }
