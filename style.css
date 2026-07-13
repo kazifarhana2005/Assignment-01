@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -113,6 +114,7 @@ ul li a{
     gap: 30px;
     flex-wrap: wrap;
     text-align: left;
+    border-color:#333333;
   
 
     
@@ -132,7 +134,7 @@ nav ul{
     width: 300px;
     border: 1px solid;
     border-color: #333333;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 30px;
     padding: 10px;
 }
@@ -159,7 +161,10 @@ nav ul{
     display: inline-block;
 }
 .pro-card ul{
-    color: white;
+    color: rgb(202, 198, 198);
+}
+.team-card{
+    background-color: rgb(217, 231, 236);
 }
 .contact-us{
     background-color: white;
