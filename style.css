@@ -125,21 +125,26 @@ nav ul{
     text-align: left;
 
 }
+.price p{
+    padding: 20px;
+}
 .price-card{
     width: 300px;
     border: 1px solid;
-    border-color: #555;
+    border-color: #333333;
     border-radius: 5px;
     padding-top: 30px;
-    padding-left: 20px;
+    padding: 10px;
+}
+.price-card p{
+    padding: 10px;
 }
 .price-card ul{
     width: 300px;
     list-style-type: disc;
-    
-   
     padding: 30px;
     flex-direction: column;
+    color: #575757;
 }
 .price-card li::marker{
     margin-bottom: 10px;
@@ -153,6 +158,9 @@ nav ul{
     border: none;
     display: inline-block;
 }
+.pro-card ul{
+    color: white;
+}
 .contact-us{
     background-color: white;
     color: darkslategray;
@@ -160,6 +168,7 @@ nav ul{
     padding:8px 20px ;
     height: 30px;
     width:100%;
+    border-radius: 5px;
 }
 .get-pro{
     background-color:#2563EB;
@@ -168,6 +177,7 @@ nav ul{
     padding:8px 20px ;
     height: 30px;
     width:100%;
+    border-radius: 5px;
 }
 .get-standard{
     background-color:white;
@@ -176,6 +186,7 @@ nav ul{
     padding:8px 20px ;
     height: 30px;
     width:100%;
+    border-radius: 5px;
 }
 .why-attend{
     padding: 80px 20px;
