@@ -48,20 +48,22 @@ ul li a{
     color: white;
     font-size:65px;
     margin-top: 0px;
-
-
+  
+   
 }
 .banner p{
     color: rgb(146, 143, 143);
    font-size: 18px;
-   width: 500px;
-   margin:auto;
+   width:500px;
    text-align: center;
+   margin: auto;
+   
+  
 }
 .hero-btn{
     padding: 12px 24px;
     border-radius: 6px;
-    margin-top: 300px;
+    margin-top: 250px;
     background-color: #2563EB;
     color: white;
     width: 200px;
@@ -69,7 +71,7 @@ ul li a{
 
 
 
-.speakers h2{
+.speakers h1{
     text-align: center !important;
 }
 .speakers{
@@ -83,6 +85,7 @@ ul li a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
+    padding: 32px;
 
 }
 .card{
@@ -110,7 +113,9 @@ ul li a{
     gap: 30px;
     flex-wrap: wrap;
     text-align: left;
-    ;
+  
+
+    
 }
 nav ul{
     display: flex;
@@ -123,6 +128,7 @@ nav ul{
 .price-card{
     width: 300px;
     border: 1px solid;
+    border-color: #555;
     border-radius: 5px;
     padding-top: 30px;
     padding-left: 20px;
